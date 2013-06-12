@@ -53,6 +53,7 @@ $(function(){
 			} else {
 				if(scrolled == 0) {
 					//めいっぱいスクロールして３秒まつ
+					scrolled = 1;
 					$('.close-modal-background-target').click();
 					$(window).scrollTop(999999);
 					setTimeout(function(){
