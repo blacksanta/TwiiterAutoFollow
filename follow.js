@@ -51,7 +51,7 @@ $(function(){
 						$('.close-modal-background-target').click();
 						follow(i+1, false);
 					}
-				}, (wait)?2000:0);
+				}, (wait)?2000:750);
 			} else {
 				if(scrolled == 0) {
 					//めいっぱいスクロールして３秒まつ
