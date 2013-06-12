@@ -20,7 +20,6 @@ $(function(){
 
 	//フォローするメソッド
 	var follow = function(i, wait) {
-		$('.modal').empty();
 		log(count, i, following);
 		if(following < count) {
 			//選択するユーザーが存在するかどうか
