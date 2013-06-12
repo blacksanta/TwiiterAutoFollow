@@ -47,6 +47,7 @@ $(function(){
 					}
 					//すでにフォローしてあれば次の人
 					else {
+						$('.close-modal-background-target').click();
 						follow(i+1, false);
 					}
 				}, (wait)?2000:0);
