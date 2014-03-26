@@ -67,7 +67,7 @@ $(function(){
 		}
 		//終了
 		else {
-			alert('完了しました。');	
+			alert(count+'件フォロー完了しました。');	
 		}
 	};
 	
