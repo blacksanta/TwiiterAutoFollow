@@ -15,7 +15,7 @@ $(function(){
 	
 	//途中経過を表示するメソッド（目標,調べた数,実際のフォロー
 	var log = function(c, i, f) {
-		$('#appstars_follow_status').html('調査数：'+i+'<br />'+'フォロー数：'+f+'/'+c+'<div style="text-align: right;"><a href="http://www.appstars.jp/" target="_blank" style="color: #efefef; text-decoration: none;">powerd by あぷすた</a></div>');
+		$('#appstars_follow_status').html('調査数：'+i+'<br />'+'フォロー数：'+f+'/'+c);
 	}
 
 	//フォローするメソッド
@@ -50,7 +50,7 @@ $(function(){
 						$('.close-modal-background-target').click();
 						follow(i+1, false);
 					}
-				}, (wait)?2500:750);
+				}, (wait)?2000:750);
 			} else {
 				if(scrolled == 0) {
 					//めいっぱいスクロールして３秒まつ
